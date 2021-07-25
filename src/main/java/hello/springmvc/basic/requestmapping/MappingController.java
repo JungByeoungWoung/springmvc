@@ -28,11 +28,11 @@ public class MappingController {
      * @PathVariable("userId") String data은
      * 실제 url에 파라미터 값을 넣어서 호출 하면 해당 데이터 값을 조회 가능하다.
      */
-    @GetMapping("/mapping/{userId}")
-    public String mappingPath(@PathVariable("userId") String data) {
-        log.info("mappingPath userId={}", data);
-        return "ok";
-    }
+//    @GetMapping("/mapping/{userId}")
+//    public String mappingPath(@PathVariable("userId") String data) {
+//        log.info("mappingPath userId={}", data);
+//        return "ok";
+//    }
 
     /**
      * PathVariable 사용 다중
